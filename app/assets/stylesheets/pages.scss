@@ -1,6 +1,11 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+   font-family: newfont;
+   src: url("https://github.com/dannysun725/pagely/blob/master/app/assets/newfont.otf") format("opentype");
+}
+
 header {
    height: 350px;
    background-image: url("http://static.pexels.com/wp-content/uploads/2014/07/buildings-cars-city-2025.jpg");
@@ -20,7 +25,7 @@ header {
       .over {
       height: 50px;
       background: #ecf0f1;
-      margin-top: 167px;
+      margin-top: 154px;
    }
    h3 {
       color: #16a085;
@@ -36,7 +41,7 @@ header {
       text-transform: uppercase;
       font-weight: 400;
       margin: 0px;
-      padding-top: 116px;
+      padding-top: 150px;
       color: #fff;
       text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
    }
@@ -79,4 +84,64 @@ header {
 .row.no-gutter [class*='col-']:not(:last-child) {
    padding-right: 0;
    padding-left: 0;
+}
+
+content {
+   h1 {
+      color: #2c3e50;
+      padding-top:30px;
+      font-family: Oswald;
+      text-transform: uppercase;
+   }
+   h2 {
+      font-family: Open Sans;
+      font-weight: bold;
+      font-size: 12px;
+      margin-left: 20px;
+      margin-top: 0px;
+      display: inline;
+   }
+   h3 {
+      margin-left: 10px;
+      font-size: 10px;
+      display: inline;
+      padding-top: 10px;
+   }
+   p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      padding-top: 10px;
+   }
+}
+
+footer {
+   background: #ecf0f1;
+   h1 {
+      color: #000;
+      font-family: Oswald;
+      text-transform: uppercase;
+   }
+   h2 {
+      font-family: Open Sans;
+      font-weight: bold;
+      font-size: 12px;
+      margin-left: 20px;
+      margin-top: 0px;
+      display: inline;
+   }
+   h3 {
+      margin-left: 10px;
+      font-size: 10px;
+      display: inline;
+   }
+   p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+   }
+}
+
+.padding-btm {
+   padding-bottom: 50px;
 }
